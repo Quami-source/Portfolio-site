@@ -1,45 +1,114 @@
-.Nav{
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  align-items: center;
-  padding-top: 30px;
-  margin: 0 50px 0 50px;
-  color: #252525;
+:root{
+  --secondary-color: #f46962;
 }
 
-.Brand{
-  display: flex;
-  flex: 5;
-  font-size: 20px;
+.navbar > a{
+  color: var(--secondary-color) !important;
+  font-size: 24px;
+}
+
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
   
 }
 
-.LinksContainer{
-  display: flex;
-  font-size: 20px;
-  justify-content: flex-end;
+nav ul li{
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9375rem;
 }
 
-.Nav ul{
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-}
-
-.middle{
-  padding: 0 40px 0 40px;
-}
-
-.Nav a{
-  text-decoration: none;
-  color: #252525;
-}
 
 .main-body{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  color: #fff;
+}
+
+.body-container{
+  display: flex;
+  margin: 50px;
+  color: #fff;
+}
+
+.img-container{
+  display: flex;
+  
+  flex: 1;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container{
+  flex: 1;
+  
+  display: flex;
+  justify-content: center;
+}
+
+.text{
+  margin: 50px 20px 0 50px;
+
+}
+
+.backrop{
+  background-color: var(--secondary-color);
+  position: relative;
+  width: 440px;
+  height: 530px;
+  transform: translateX(40px);
+}
+
+.imagedrop{
+  
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  
+}
+
+.image-style{
+  width: 27.59375rem;
+  height: 31.25rem;
+}
+
+.h-rule{
+  width: 120px;
+  height: 3px;
+  background-color: var(--secondary-color);
+  margin-bottom: 40px;
+}
+
+.text h2{
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.text p{
+  font-family: 'Open Sans', sans-serif;
+  color: #ccc;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: row;
+  
+  font-size: 24px;
+  margin-top: 120px;
+}
+
+.media-icon{
+  padding-right: 30px;
+}
+
+.media-icon a{
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.media-icon a:hover{
+  color: #fff;
 }
