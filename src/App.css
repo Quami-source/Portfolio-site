@@ -2,22 +2,25 @@
   --secondary-color: #f46962;
 }
 
-.navbar > a{
-  color: var(--secondary-color) !important;
-  font-size: 24px;
-}
-
 .navbar-brand{
+  color: var(--secondary-color) !important;
   font-family: 'Pacifico', cursive;
-  
+  font-size: 30px;
 }
 
 nav ul li{
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9375rem;
+  letter-spacing: 0.03em;
+  font-size: 12px;
 }
 
+.navbar-nav > li > a.active, .navbar-nav > li >a:focus{
+  border-bottom: 0.1875rem solid var(--secondary-color);
+}
+
+/*----------body----------*/
 
 .main-body{
   display: flex;
@@ -73,6 +76,7 @@ nav ul li{
 .image-style{
   width: 27.59375rem;
   height: 31.25rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 
 .h-rule{
@@ -111,4 +115,45 @@ nav ul li{
 
 .media-icon a:hover{
   color: #fff;
+}
+
+/*---------------about section----------*/
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #171616;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  padding-left: 100px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-container > h3{
+  font-size: 20px;
+  text-transform:uppercase;
+}
+
+
+
+/*---------projects--------*/
+.projects-main{
+  display: flex;
+  
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  padding-left: 100px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.project-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
