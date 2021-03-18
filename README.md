@@ -3,6 +3,6 @@ This website showcase my works including graphic design, web development and mob
 
 ## Screen shots from the development stages are shown below
 
-
+![shot1.png](https://github.com/Quami-source/Portfolio-site/blob/main/src/components/nav/screenshots/shot1.png?raw=true)
 
 
