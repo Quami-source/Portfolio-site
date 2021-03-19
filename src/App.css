@@ -16,9 +16,16 @@ nav ul li{
   font-size: 12px;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li >a:focus{
-  border-bottom: 0.1875rem solid var(--secondary-color);
+.nav-link.active, .nav-link:active{
+  border-bottom: 0.1875rem solid var(--secondary-color) !important;
+  
 }
+
+.nav-link:hover{
+  cursor: pointer;
+}
+
+
 
 /*----------body----------*/
 
@@ -31,6 +38,7 @@ nav ul li{
 }
 
 .body-container{
+  padding-top: 50px;
   display: flex;
   margin: 50px;
   color: #fff;
@@ -130,6 +138,7 @@ nav ul li{
   padding-left: 100px;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
+  
 }
 
 .about-container > h3{
@@ -137,17 +146,66 @@ nav ul li{
   text-transform:uppercase;
 }
 
+.abc{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
+.professional-skills{
+  display: flex;
+  flex:1;
+  width: 200px;
+  height: 300px;
+  flex-direction: column;
+}
+
+.professional-skills ul{
+  list-style: none;
+  margin-left: 25%;
+}
+
+.professional-skills li{
+  text-transform: uppercase;
+}
+
+.professional-skills h4{
+  margin-bottom: 50px;
+  color: #f46962;
+  margin-left: 10%;
+  text-transform: uppercase;
+}
+
+.education{
+  display: flex;
+  flex:2;
+  
+  
+  width: 200px;
+  height: 300px;
+  
+  flex-direction: column;
+}
+
+.education h3{
+  color: #f46962;
+  text-transform: uppercase;
+}
+
+h6{
+  color:#bebebe
+}
 
 /*---------projects--------*/
 .projects-main{
   display: flex;
-  
+  justify-content: center;
+  align-items: center;
   margin-top: 100px;
-  padding-top: 50px;
+  
   padding-bottom: 50px;
-  padding-right: 40px;
-  padding-left: 100px;
+  
   color: #fff;
   font-family: 'Open Sans', sans-serif;
 }
@@ -156,4 +214,28 @@ nav ul li{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.project-items{
+  display: flex;
+  flex: 1;
+  text-align: center;
+  border-radius: 30px;
+  
+  margin: 20px;
+  padding: 30px;
+  background-color: crimson;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-info{
+  width:100px !important;
+  margin-top: 30px;
+}
+
+/*---contact----*/
+.form-control{
+  background-color: crimson impor !important;
+  margin-top: 20px;
 }

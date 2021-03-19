@@ -5,15 +5,17 @@ import Nav from './components/nav/Nav';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
       <Nav/>
-      <Body/>
-      <About/>
-      <Projects/>
-      <Contact/>
+      <Body title = 'body' />
+      <About title = 'about'/>
+      <Projects title = 'projects'/>
+      <Contact title = 'contact'/>
+      <Footer/>
     </div>
   );
 }
