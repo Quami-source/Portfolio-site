@@ -1,14 +1,14 @@
 import React from 'react';
 import me from '../../../image02.png';
 
-const Body = ()=>{
+const Body = ({title})=>{
     return(
-        <div className='body-container'>
+        <div className='body-container' id = {title}>
             <div className='img-container'>
                 <div className='backrop'/>
 
                 <div className='imagedrop'>
-                    <img src={me} className='image-style' />
+                    <img src={me} className='image-style' alt="Quami"/>
                 </div>
 
             </div>

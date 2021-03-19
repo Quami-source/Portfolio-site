@@ -2,22 +2,32 @@
   --secondary-color: #f46962;
 }
 
-.navbar > a{
-  color: var(--secondary-color) !important;
-  font-size: 24px;
-}
-
 .navbar-brand{
+  color: var(--secondary-color) !important;
   font-family: 'Pacifico', cursive;
-  
+  font-size: 30px;
 }
 
 nav ul li{
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9375rem;
+  letter-spacing: 0.03em;
+  font-size: 12px;
 }
 
+.nav-link.active, .nav-link:active{
+  border-bottom: 0.1875rem solid var(--secondary-color) !important;
+  
+}
+
+.nav-link:hover{
+  cursor: pointer;
+}
+
+
+
+/*----------body----------*/
 
 .main-body{
   display: flex;
@@ -28,6 +38,7 @@ nav ul li{
 }
 
 .body-container{
+  padding-top: 50px;
   display: flex;
   margin: 50px;
   color: #fff;
@@ -73,6 +84,7 @@ nav ul li{
 .image-style{
   width: 27.59375rem;
   height: 31.25rem;
+  box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 
 .h-rule{
@@ -111,4 +123,119 @@ nav ul li{
 
 .media-icon a:hover{
   color: #fff;
+}
+
+/*---------------about section----------*/
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #171616;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  padding-left: 100px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+.about-container > h3{
+  font-size: 20px;
+  text-transform:uppercase;
+}
+
+.abc{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.professional-skills{
+  display: flex;
+  flex:1;
+  width: 200px;
+  height: 300px;
+  flex-direction: column;
+}
+
+.professional-skills ul{
+  list-style: none;
+  margin-left: 25%;
+}
+
+.professional-skills li{
+  text-transform: uppercase;
+}
+
+.professional-skills h4{
+  margin-bottom: 50px;
+  color: #f46962;
+  margin-left: 10%;
+  text-transform: uppercase;
+}
+
+.education{
+  display: flex;
+  flex:2;
+  
+  
+  width: 200px;
+  height: 300px;
+  
+  flex-direction: column;
+}
+
+.education h3{
+  color: #f46962;
+  text-transform: uppercase;
+}
+
+h6{
+  color:#bebebe
+}
+
+/*---------projects--------*/
+.projects-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  
+  padding-bottom: 50px;
+  
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.project-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-items{
+  display: flex;
+  flex: 1;
+  text-align: center;
+  border-radius: 30px;
+  
+  margin: 20px;
+  padding: 30px;
+  background-color: crimson;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-info{
+  width:100px !important;
+  margin-top: 30px;
+}
+
+/*---contact----*/
+.form-control{
+  background-color: crimson impor !important;
+  margin-top: 20px;
 }
