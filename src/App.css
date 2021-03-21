@@ -31,8 +31,9 @@ nav ul li{
 
 .main-body{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  
   align-items: center;
   color: #fff;
 }
@@ -42,6 +43,7 @@ nav ul li{
   display: flex;
   margin: 50px;
   color: #fff;
+  flex-wrap: wrap;
 }
 
 .img-container{
@@ -57,6 +59,7 @@ nav ul li{
   flex: 1;
   
   display: flex;
+  
   justify-content: center;
 }
 
@@ -210,6 +213,10 @@ h6{
   font-family: 'Open Sans', sans-serif;
 }
 
+.project-items h4{
+  text-transform:uppercase
+}
+
 .project-container{
   display: flex;
   justify-content: center;
@@ -238,4 +245,17 @@ h6{
 .form-control{
   background-color: crimson impor !important;
   margin-top: 20px;
+}
+
+@media (max-width:800px){
+  .main-body{
+    flex-direction: column;
+  }
+
+
+
+  .text-container{
+    padding-left: 20px;
+    color: aqua;
+  }
 }

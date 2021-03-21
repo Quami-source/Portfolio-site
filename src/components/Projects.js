@@ -20,7 +20,7 @@ export default function Projects() {
                         <h4>Mobile & Web Apps</h4>
                         <p>Link to various projects undertaken.</p>
                         <img src = {web} width={150} height={150} alt="web-programming" />
-                        <button type="button" class="btn btn-info">Info</button>
+                        <button type="button" class="btn btn-info">Go to</button>
                     </div>
                     <div className="project-items">
                         <h4>Flyers and logo</h4>
@@ -32,7 +32,7 @@ export default function Projects() {
                         <h4>Illustrations</h4>
                         <p>Digital drawings and cartoons of people</p>
                         <img src = {model} width={150} height={150} alt="illust" />
-                        <button type="button" class="btn btn-info">Info</button>
+                        <button type="button" class="btn btn-info">Go to</button>
                     </div>
                 </div>
             </div>

@@ -13,8 +13,8 @@ const Nav = ()=>{
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent" >
                     <ul className="navbar-nav ml-auto">
-                        <li className="nav-item active">
-                            <Link className="nav-link" activeClass = "active" to = "body" smooth={true} spy={true} duration={500} offset={-70}>Home <span class="sr-only"></span></Link>
+                        <li className="nav-item">
+                            <Link className="nav-link" activeClass = "active" to = "body" smooth={true} spy={true} duration={500} offset={-70}>Home </Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to = "about" smooth={true} spy={true} duration={500} offset={-70}>About me</Link>
