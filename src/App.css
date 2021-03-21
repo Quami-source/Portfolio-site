@@ -247,16 +247,3 @@ h6{
   background-color: crimson impor !important;
   margin-top: 20px;
 }
-
-@media (max-width:800px){
-  .main-body{
-    flex-direction: column;
-  }
-
-
-
-  .text-container{
-    padding-left: 20px;
-    color: aqua;
-  }
-}
