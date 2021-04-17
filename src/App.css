@@ -25,8 +25,6 @@ nav ul li{
   cursor: pointer;
 }
 
-
-
 /*----------body----------*/
 
 .main-body{
@@ -77,7 +75,6 @@ nav ul li{
 }
 
 .imagedrop{
-  
   position: absolute;
   width: 400px;
   height: 500px;
@@ -138,7 +135,7 @@ nav ul li{
   margin-top: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-right: 40px;
+  padding-right: 30px;
   padding-left: 100px;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -153,8 +150,7 @@ nav ul li{
 .abc{
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .professional-skills{
@@ -184,11 +180,8 @@ nav ul li{
 .education{
   display: flex;
   flex:2;
-  
-  
   width: 200px;
   height: 300px;
-  
   flex-direction: column;
 }
 
@@ -207,7 +200,7 @@ h6{
   justify-content: center;
   align-items: center;
   margin-top: 100px;
-  
+  flex-wrap: wrap;
   padding-bottom: 50px;
   
   color: #fff;
@@ -215,7 +208,8 @@ h6{
 }
 
 .project-items h4{
-  text-transform:uppercase
+  text-transform:uppercase;
+
 }
 
 .project-container{
@@ -229,7 +223,6 @@ h6{
   flex: 1;
   text-align: center;
   border-radius: 30px;
-  
   margin: 20px;
   padding: 30px;
   background-color: crimson;
@@ -246,4 +239,63 @@ h6{
 .form-control{
   background-color: crimson impor !important;
   margin-top: 20px;
+}
+
+@media(max-width:780px){
+  .image-style{
+    width: 25.59375rem;
+  height: 30.25rem;
+  }
+
+  .backrop{
+    width: 410px;
+    height: 510px;
+    transform : translate(18px,-5px)
+  }
+
+  .projects-main{
+    padding:15px;
+  }
+  .project-items{
+    margin: 0;
+    padding: 0;
+  }
+  .project-items h4{
+    padding-top: 20px;
+    font-size: 18px;
+  }
+  .project-items p{
+    color:#d68d89;
+  }
+  .btn-info{
+    margin-bottom: 15px;
+  }
+
+  .professional-skills ul{
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .professional-skills li{
+    font-size: 14px;
+    margin-left: -20px;
+  }
+  
+  .professional-skills h4{
+    margin-bottom: 20px;
+    margin-left: 0;
+    font-size: 20px;
+  }
+  .education{
+    font-size: 15px;
+  }
+  .schoolName{
+    font-size: 20px;
+  }
+  .time{
+    font-size: 12px;
+  }
+  .education h3{
+    font-size: 20px;
+  }
 }

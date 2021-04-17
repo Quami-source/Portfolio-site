@@ -28,15 +28,15 @@ export default function About({title}) {
                     <div className="education">
                         <h3>Education</h3>
                         <div style={{paddingTop:20,display:'flex',flexDirection:'row'}}>
-                            <div style={{flex:1}}>
-                                <h6>2017 - 2021</h6>
-                                <h4>University of Ghana</h4>
+                            <div style={{flex:1,paddingRight:10}}>
+                                <h6 className='time'>2017 - 2021</h6>
+                                <h4 className="schoolName">University of Ghana</h4>
                                 <p style={{color:'#bebebe'}}>Bachelor of Science in Computer Sc.</p>
                                 
                             </div>
                             <div style={{flex:1}}>
-                                <h6>2014 - 2017</h6>
-                                <h4>St. Thomas Acquinas SHS</h4>
+                                <h6 className='time'>2014 - 2017</h6>
+                                <h4 className="schoolName">St. Thomas Acquinas SHS</h4>
                                 <p style={{color:'#bebebe'}}>Business</p>
                                 
                             </div>
